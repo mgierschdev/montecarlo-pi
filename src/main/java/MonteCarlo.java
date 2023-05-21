@@ -29,6 +29,9 @@ public class MonteCarlo {
                     circleBucket++;
                 }
 
+                // A = pi r^2
+                // A = l * l
+                // pi = l ^2 / r^2
                 pi = circleBucket / squareBucket;
                 fr.write(i + "," + pi + "\n");
             }
